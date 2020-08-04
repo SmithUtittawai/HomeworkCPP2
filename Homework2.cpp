@@ -18,7 +18,7 @@ int main() {
     cout<<"Your Name = "<<name<<" "<<lastname<<endl;
     cout<<"Total Revenue \t"<<(sales*commission/100)+salary<<endl;
 	if (cin.fail()) {
-		cout <<"Input Error \n";
+		cout<<"Input Error \n";
 	}
     system("pause");
     return 0;
